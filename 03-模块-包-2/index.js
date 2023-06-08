@@ -1,0 +1,8 @@
+var modultA = require('./a')
+var modultB = require('./b')
+var modultC = require('./c')
+console.log(modultA)
+modultA.test()
+modultA.upper('abcdefghijklmnopqrstuvwxyz')
+modultB()
+modultC()

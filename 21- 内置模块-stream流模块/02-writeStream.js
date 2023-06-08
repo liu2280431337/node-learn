@@ -1,0 +1,20 @@
+const fs = require('fs')
+
+const ws = fs.createWriteStream('./2.txt', 'utf-8')
+
+ws.write('\n111111111')
+ws.write('\n222222222')
+ws.write('\n333333333')
+ws.write('\n444444444')
+ws.write('\n555555555')
+ws.write('\n666666666')
+ws.write('\n777777777')
+ws.write('\n888888888')
+ws.write('\n999999999')
+ws.write('\n000000000')
+ws.write('\naaaaaaaaa')
+ws.write('\nbbbbbbbbb')
+ws.write('\nccccccccc')
+ws.write('\nddddddddd')
+
+ws.end()
